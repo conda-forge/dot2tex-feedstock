@@ -1,5 +1,5 @@
 {% set name = "dot2tex" %}
-{% set version = "2.11.3" %}
+{% set version = "2.12.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dot2tex-{{ version }}.tar.gz
-  sha256: 299a2af05aee5bbe0257a562a506a93e279293d5c38f28d08ab8acb3233fe7ce
+  sha256: 11b097390b94d1a6f5072c08c50637e724e2f81b463794972c3d423005b5f536
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - dot2tex = dot2tex.dot2tex:main
